@@ -122,6 +122,8 @@ select {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
+  width: 40%;
 }
 
 .boton-principal:hover {
@@ -223,5 +225,10 @@ select {
   .imagen-peluqueria {
     width: 100%;
   }
+}
+  .rincon-peluquero {
+    justify-content: center;
+    width: 70%;
+    padding: 10px;
 
 }

@@ -68,7 +68,7 @@
             </label>
 
             <input
-              id="nombreCliente"
+              id="cliente"
               type="text"
               placeholder="Ej.: Marta Ruiz"
             
@@ -112,7 +112,7 @@
 
           <!-- BOTÓN DE ENVÍO -->
           <button
-            type="submit"
+            type="button"
             class="boton-principal"
             onclick="agregarCita()"
           >
@@ -175,7 +175,28 @@
       Añade también un párrafo donde
       mostrarás los mensajes.
     -->
+     <article class="rincon-peluquero">
+      <h2>el rincon de tu peluqueria</h2>
+      <p>Haz clic en los botones para ver el servicio de la semana y un consejo de peluquería.</p>
 
+      <button
+        type="button"
+        class="boton-principal"
+        onclick="mostrarServicioSemana()"
+      >
+        Servicio de la semana →
+      </button>
+
+      <button
+        type="button"
+        class="boton-principal"
+        onclick="mostrarConsejoPeluqueria()"
+      >
+        Consejo de peluquería →
+      </button>
+
+      <p id="mensajeReto" class="mensaje"></p>
+     </article>
 
     <!-- IMAGEN DE DESPEDIDA -->
     <img
